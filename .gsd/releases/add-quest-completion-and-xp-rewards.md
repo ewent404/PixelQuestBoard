@@ -23,11 +23,14 @@ openspec/changes/add-quest-completion-and-xp-rewards
 
 ## Changed Files
 
-- No Git changes detected, or Git is unavailable.
+- src/app.js
+- index.html
+- src/styles.css
 
 ## Agent Handoffs
 
-- No agent handoff messages recorded.
+-  unknown: 
+- 2026-06-23T04:57:29.714Z builder: Implemented quest completion with once-only XP rewards in src/quest-board.js and covered it with node:test unit tests.
 
 ## Release Notes
 

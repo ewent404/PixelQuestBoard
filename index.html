@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pixel Quest Board</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="quest-panel" aria-labelledby="app-title">
+        <header class="hero">
+          <div>
+            <p class="caption">Adventurer log</p>
+            <h1 id="app-title">Pixel Quest Board</h1>
+          </div>
+          <div class="xp-counter" aria-live="polite">
+            <span id="total-xp">0</span>
+            <small>XP</small>
+          </div>
+        </header>
+
+        <section class="progress-area" aria-label="Quest progress">
+          <div class="progress-copy">
+            <span id="progress-label">0 of 0 quests complete</span>
+            <strong id="rank-label">Rank: Novice</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+        </section>
+
+        <section class="quest-list" aria-label="Available quests">
+          <div id="quest-list"></div>
+        </section>
+
+        <footer class="status-line" aria-live="polite">
+          <span id="status-message">Choose a quest to claim its XP.</span>
+        </footer>
+      </section>
+    </main>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>

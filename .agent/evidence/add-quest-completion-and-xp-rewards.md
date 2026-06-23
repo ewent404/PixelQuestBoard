@@ -1,7 +1,7 @@
 # Add quest completion and XP rewards Verification Evidence
 
 Mode: full
-Generated: 2026-06-23T04:58:06.766Z
+Generated: 2026-06-23T05:25:22.849Z
 
 ## Checks
 
@@ -26,8 +26,8 @@ Required: yes
 > pixel-quest-board@0.1.0 test
 > node --test
 
-✔ completing an open quest marks it complete and awards its XP once (1.362458ms)
-✔ completing an unknown quest reports a clear failure (0.185333ms)
+✔ completing an open quest marks it complete and awards its XP once (1.60175ms)
+✔ completing an unknown quest reports a clear failure (0.197083ms)
 ℹ tests 2
 ℹ suites 0
 ℹ pass 2
@@ -35,7 +35,7 @@ Required: yes
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 79.260083
+ℹ duration_ms 83.316125
 ```
 
 ### typecheck
@@ -59,8 +59,8 @@ Required: no
 > pixel-quest-board@0.1.0 test:e2e
 > node --test
 
-✔ completing an open quest marks it complete and awards its XP once (1.267708ms)
-✔ completing an unknown quest reports a clear failure (0.183583ms)
+✔ completing an open quest marks it complete and awards its XP once (1.3015ms)
+✔ completing an unknown quest reports a clear failure (0.184417ms)
 ℹ tests 2
 ℹ suites 0
 ℹ pass 2
@@ -68,6 +68,6 @@ Required: no
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 78.738667
+ℹ duration_ms 79.48925
 ```
 
